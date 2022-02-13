@@ -1,14 +1,3 @@
-/***************************************************
-
-  Program name:        assign1
-  Program description: Rock paper scissors
-
-  Class: CS101 Sec. 005
-  Name:  Kristen Jady Chan
-  Date:  October 10, 2020
- 
-****************************************************/
-
 import java.util.Scanner;
 
 public class rps {
@@ -30,7 +19,6 @@ public class rps {
 		System.out.println("     P/p - paper");
 		System.out.println("     S/s - scissors");
 		choice = scanner.next().toUpperCase();
-		// System.out.println(choice);
 
 		//Test validity of player's input 
 		while (!testvalid(choice))  {
